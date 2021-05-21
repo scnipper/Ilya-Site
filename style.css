@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+html,body {
+    padding-top: 50px;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+}
+.card {
+    width: 350px;
+    height: 350px;
+
+}
+.card-list {
+    width: 100%;
+}
+.header {
+    color: #131212;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    font-style: normal;
+}
+.sub-header {
+    color: #131212;
+    font-size: 25px;
+    width: 535px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+.hi-img {
+    font-size: 45px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.root-write {
+    position: relative;
+    height: 23px;
+}
+
+.write-me {
+    font-size: 16px;
+
+    position: absolute;
+    right: 52px;
+
+    display: inline-block;
+}
+.write-me a {
+    color: #131212;
+}
+.icon-write {
+    margin-left: 10px;
+    margin-bottom: -6px;
+    width: 22px;
+    height: 22px;
+    background: url("img/arrow_write.png");
+    background-size: cover;
+    display: inline-block;
+}
