@@ -14,11 +14,20 @@ html,body {
 .card {
     width: 350px;
     height: 350px;
+    display: block;
+    border: 1px solid #131212;
 
 }
+
 .card-list {
+    margin-top: 100px;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    justify-content: space-between;
+    grid-gap: 50px;
 }
+
 .header {
     color: #131212;
     font-size: 45px;
