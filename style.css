@@ -43,7 +43,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fill, 100%);
-        justify-content: space-between;
+        justify-content: center;
         grid-gap: 3.125rem;
     }
     .card {
@@ -66,7 +66,7 @@
         padding-top: 30px;
         margin: 0;
         font-family: Montserrat, sans-serif;
-        font-size: 16px;
+        font-size: 11px;
 
     }
     .header {
@@ -107,7 +107,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fill, 21.875rem);
-        justify-content: space-between;
+        justify-content: center;
         grid-gap: 3.125rem;
     }
     .card {
@@ -124,12 +124,41 @@
         display: inline-block;
     }
 }
+@media screen and (min-width: 1200px) {
+    html, body {
+        padding-top: 30px;
+        margin: 0;
+        font-family: Montserrat, sans-serif;
+        font-size: 13px;
+
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    html, body {
+        padding-top: 30px;
+        margin: 0;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+
+    }
+
+}
 @media screen and (min-width: 1920px) {
     html,body {
         padding-top: 30px;
         margin: 0;
         font-family: Montserrat, sans-serif;
         font-size: 20px;
+
+    }
+}
+@media screen and (min-width: 2300px) {
+    html,body {
+        padding-top: 30px;
+        margin: 0;
+        font-family: Montserrat, sans-serif;
+        font-size: 25px;
 
     }
 }
