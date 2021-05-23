@@ -23,9 +23,12 @@
         font-weight: 400;
     }
     .hi-img {
-        font-size: 2.81rem;
-        width: 100%;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: url("img/hi_emoji.png");
+        background-size: cover;
     }
+
     .container {
         width: 85%;
         margin: auto;
@@ -85,10 +88,11 @@
         margin: auto;
     }
     .hi-img {
-        font-size: 2.81rem;
-        width: 100%;
+        width: 2.8125rem;
+        height: 2.8125rem;
         margin: auto;
-        text-align: center;
+        background: url("img/hi_emoji.png");
+        background-size: cover;
     }
     .container {
         width: 80%;
@@ -257,6 +261,7 @@
 .root-write {
     position: relative;
     height: 1.4375rem;
+    margin-bottom: 2rem;
 }
 
 
